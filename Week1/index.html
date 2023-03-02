@@ -1,0 +1,85 @@
+<!-- Create, update, complete,previous task menu -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/icon2.png">
+    <title>Todo List | Yatharth</title>
+
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  </head>
+  <body>
+    <header>
+    <nav>
+      <div class="logo"><img src="./images/logo.avif"></div>
+      <div class="empty" style="font-family: cursive;">Todo List</div>
+      <ul class="navbar">
+          <li class="navlink"><a href="index.html">Home</a></li>
+          <li class="navlink"><a href="previous.html">Previous Task</a></li>
+      </ul>
+      <div class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <i class="fas fa-bars"></i>
+      </div>
+      <!-- <div class="logo"><img src="./images/logo.avif"></div> -->
+    </nav>
+  </header>
+    <!-- <div class="content">
+  <img src="./images/logo.avif">
+  <img src="./images/logo.avif">
+  <img src="./images/logo.avif">
+  <img src="./images/logo.avif">
+  <img src="./images/logo.avif">
+  <img src="./images/logo.avif">
+</div> -->
+
+<div class="popup-box">
+  <div class="popup">
+    <div class="content">
+      <div class="header">
+        <p>Add new Task</p>
+        <img src="./images/icons8-multiply-24.png">
+      </div>
+      <form action="#">
+        <div class="row title">
+          <label>Title</label>
+          <input type="text" spellcheck="false" placeholder="Enter Your Task Title">
+        </div>
+        <div class="row description">
+          <label>Description</label>
+          <textarea type="text" spellcheck="false" placeholder="Enter Your Task Content"></textarea>
+        </div>
+        <button></button>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="wrappers"></div>
+<div class="wrapper">
+  <li class="add-box" id="add">
+    <div class="icon"><img src="./images/plus.png"></div>
+    <p>Add new Task</p>
+  </li>
+  <li class="add-box" id="remove">
+    <div class="icon"><img src="./images/cross.png"></div>
+    <p>Delete All</p>
+  </li>
+</div>
+<hr>
+</br>
+<div class="wrapper" id="first">
+  <ul>
+    <li></li>
+  </ul>
+</div>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+  </body>
+</html>
